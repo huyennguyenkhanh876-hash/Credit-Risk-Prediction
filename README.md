@@ -30,7 +30,7 @@ The project utilizes the Australian Credit Dataset (australian.dataset).
 - Business Insight: The report highlights why Accuracy is a misleading metric for imbalanced, cost-sensitive credit risk problems. In banking, missing a bad credit (False Negative) causes significantly higher financial damage than mistakenly rejecting a good customer (False Positive).
 4. Threshold Optimization & Trade-off Analysis
 
-  Extracted prediction probabilities using predict_proba and analyzed the Precision-Recall trade-off by dynamically adjusting the decision threshold:
+    Extracted prediction probabilities using predict_proba and analyzed the Precision-Recall trade-off by dynamically adjusting the decision threshold:
 - Threshold 0.5: Precision ~0.814, Recall ~0.859. A balanced approach suitable for market expansion.
 - Threshold 0.7: Precision ~0.901, Recall ~0.753.
 - Threshold 0.9: Precision ~0.942, Recall ~0.449. A strict risk-averse approach that ensures high reliability of rejected applications but misses over half of the actual defaults.  
